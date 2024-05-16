@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+body {
+  height: 100vh;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 50%;
+  height: calc(100vh - 100px);
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+.bo1 {
+  width: 300px;
+  height: 2px;
+  background-color: #111;
+  margin-top: 45px;
+  margin-right: 25px;
+}
+.bo2 {
+  width: 300px;
+  height: 2px;
+  background-color: #111;
+  margin-top: 45px;
+  margin-left: 25px;
+}
+h1 {
+  margin-top: 20px;
+  font-family: "Poetsen One", sans-serif;
+  letter-spacing: 4px;
+  font-size: 38px;
+}
+section {
+  margin: 1.5rem 0px;
+}
+label {
+  font-size: 25px;
+  margin-right: 10px;
+  font-family: "Gamja Flower", sans-serif;
+}
+#user {
+  padding: 4px 0px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+#add {
+  font-size: 20px;
+  padding: 2px 7px;
+  /* background-color: pink; */
+  /* border: 2px solid #bbb; */
+  border-radius: 3px;
+  border: none;
+}
+#add:hover {
+  background-color: pink;
+  cursor: pointer;
+  border: none;
+}
+.tab {
+  display: flex;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.tab li {
+  padding: 1rem;
+  cursor: pointer;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 18px;
+}
+.on {
+  color: skyblue;
+  font-weight: bold;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.task-done {
+  text-decoration: line-through;
+  font-family: "Poetsen One", sans-serif;
+}

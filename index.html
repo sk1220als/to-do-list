@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+        <ul class="wrap">
+            <li><div class="bo1"></div></li>
+            <li><h1>To Do List</h1></li>
+            <li><div class="bo2"></div></li>
+        </ul>
+
+      <section>
+        <label>오늘 할 일</label>
+        <input id="user" placeholder="할 일 추가하기" />
+        <button id="add">+</button>
+      </section>
+      <section>
+        <ul class="tab">
+          <li id="all" class="on">전체</li>
+          <li id="ing">진행 중</li>
+          <li id="end">종료</li>
+        </ul>
+        <div id="taskBoard">
+          <!-- <div class="task">
+            <div>집 가기</div>
+            <div>
+              <button>check</button>
+              <button>delete</button>
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="custom.js"></script>
+  </body>
+</html>
